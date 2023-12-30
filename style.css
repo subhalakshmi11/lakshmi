@@ -1,0 +1,46 @@
+body
+{
+    font-family: 'Allon',sans-serif;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h2{
+    color: #000;
+}
+
+form{
+    max-width: 300px;
+    margin:0 auto;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 0 10px black;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+}
+input{
+
+width: 100%;
+padding: 8px;
+ margin-bottom: 16px;
+ border: 1px solid violet;
+ border-radius: 4px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 16px;
+    display: block; 
+}
+input[type="submit"]{
+    background-color: #45a049;
+}
+
